@@ -11,3 +11,11 @@ Heavily inspired by Ashwin Kumar's blog post, For more information, check out hi
 ```bash
 bash get_data.sh
 ```
+## Load pre-trained weights
+```python
+encoder = torch.load('model_weights/encoder_resnet34_0.061650436371564865.pt')
+decoder = torch.load('model_weights/decoder_resnet34_0.061650436371564865.pt')
+```
+## Pre-trained weight preview:
+
+![loss_0.061](https://raw.githubusercontent.com/mzbac/sketch2code/master/image_sketch2code_loss_0.061.png)
