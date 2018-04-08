@@ -21,3 +21,6 @@ decoder = torch.load('model_weights/decoder_resnet34_0.061650436371564865.pt')
 ## Pre-trained weight preview:
 
 ![loss_0.061](https://raw.githubusercontent.com/mzbac/sketch2code/master/image_sketch2code_loss_0.061.png)
+
+## Pre-trained model's BLEU score 
+- 0.974
