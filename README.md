@@ -1,4 +1,4 @@
-# Screenshot2code
+# Sketch2code
 
 ![Preview](https://github.com/ashnkumar/sketch-code/blob/master/header_image.png)
 
