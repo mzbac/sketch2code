@@ -13,6 +13,13 @@ Heavily inspired by Ashwin Kumar's blog post, For more information, check out hi
 ```bash
 bash get_data.sh
 ```
+## Docker demo settings
+```bash 
+docker pull mzbac/sketch2code
+docker run -p 5000:5000 mzbac/sketch2code
+```
+browser to localhost:5000
+
 ## Load pre-trained weights
 ```python
 encoder = torch.load('model_weights/encoder_resnet34_0.061650436371564865.pt')
